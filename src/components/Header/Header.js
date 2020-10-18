@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { Navbar, NavbarBrand, NavbarToggler, TabContent, TabPane, Nav, NavItem, Card, Button, CardTitle, CardText, Row, Col, Collapse } from 'reactstrap';
-import classnames from 'classnames';
+import { Navbar, NavbarBrand, NavbarToggler,  NavItem,NavLink, Collapse } from 'reactstrap';
 import './Header.css';
-import{NavLink} from 'react-router-dom';
+
 
 const Example = (props) => {
   const [activeTab, setActiveTab] = useState('1');
@@ -20,7 +19,7 @@ const Example = (props) => {
         <NavbarToggler onClick={toggleNav} />
         <Collapse isOpen={isOpen} navbar>
           <NavItem>
-            <NavLink className="nav-link" to="/home">Home</NavLink>
+            <NavLink href="/home">Home</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="">About Us</NavLink>
