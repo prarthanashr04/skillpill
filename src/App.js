@@ -12,7 +12,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isHome: false,
+      isHome: true,
       isAboutus: false,
       isWorks: false,
       isContact: false
@@ -69,7 +69,10 @@ class App extends Component {
 
       return(
         <div className="App" >
-          <Header home={this.home} aboutus={this.aboutus} works={this.works} contact={this.contct} />
+
+          <Header home={this.home} aboutus={this.aboutus} works={this.works} contact={this.contact} />
+          {current}
+
         </div>
       );
     }
