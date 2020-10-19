@@ -69,8 +69,10 @@ class App extends Component {
 
       return(
         <div className="App" >
+
           <Header home={this.home} aboutus={this.aboutus} works={this.works} contact={this.contact} />
           {current}
+
         </div>
       );
     }

@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
-import { Button , Navbar, NavbarBrand, NavbarToggler,  NavItem,NavLink, Collapse } from 'reactstrap';
+
 import './Header.css';
+
+import { Navbar, NavbarBrand, NavbarToggler,  NavItem,NavLink, Collapse } from 'reactstrap';
+import './Header.css';
+
 
 
 const Header = (props) => {
@@ -19,6 +23,7 @@ const Header = (props) => {
         <NavbarToggler onClick={toggleNav} />
         <Collapse isOpen={isOpen} navbar>
           <NavItem>
+
             <NavLink onClick = {props.home}>Home</NavLink>
           </NavItem>
           <NavItem>
@@ -29,6 +34,8 @@ const Header = (props) => {
           </NavItem>
           <NavItem>
             <NavLink onClick = {props.contact}>Contact</NavLink>
+
+           
           </NavItem>
         </Collapse>
       </Navbar>
