@@ -34,6 +34,9 @@
     ]
   },
   "devDependencies": {
-    "reactstrap": "^8.6.0"
+    "react-redux": "^7.2.1",
+    "react-redux-form": "^1.16.14",
+    "reactstrap": "^8.6.0",
+    "redux": "^4.0.5"
   }
 }
