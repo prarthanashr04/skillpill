@@ -22,13 +22,13 @@ const Example = (props) => {
             <NavLink href="/home">Home</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="">About Us</NavLink>
+            <NavLink href="/aboutus">About Us</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="">Works</NavLink>
+            <NavLink href="/works">Works</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="">Contact</NavLink>
+            <NavLink href="/contact">Contact</NavLink>
           </NavItem>
         </Collapse>
       </Navbar>
