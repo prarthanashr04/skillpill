@@ -1,0 +1,10 @@
+#baseLines{
+    text-align: left;
+    padding:20px 20px;
+}
+#baseLines .head {
+    font-size: 20px;
+}
+#heading{
+    font-size: 30px;
+}
