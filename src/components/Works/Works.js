@@ -1,10 +1,12 @@
 import React from 'react';
+import BaseLines from '../baseLines/baseLines';
 import './Works.css';
 
 function Works(){
     return(<div>
-      
-        Works
+
+    <BaseLines />
+
     </div>)
 }
 
