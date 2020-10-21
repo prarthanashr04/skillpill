@@ -1,8 +1,9 @@
 .text1{
   background-color: bisque;
 }
-h3{
-      text-align: justify;
-      padding-left: 30px;
-    padding-right: 30px;
+.text1 p,ul{
+  font-size: 20px;
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
 }
