@@ -1,0 +1,12 @@
+#btncss{
+  max-width: 30%;
+   float: right ;
+    align-self: flex-end;
+}
+#cardcss{
+  background-color : darkturquoise;
+   border-color: #333;
+  text-align:left;
+  margin:30px;
+ color:black;
+}
