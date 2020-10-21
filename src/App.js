@@ -59,7 +59,7 @@ class App extends Component {
     render(){
       var current;
       if (this.state.isHome)
-        current = <Home />;
+        current = <Home aboutus={this.aboutus} works={this.works} />;
       else if (this.state.isAboutus)
         current = <Aboutus />;
       else if (this.state.isWorks)
