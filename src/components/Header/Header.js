@@ -23,19 +23,16 @@ const Header = (props) => {
         <NavbarToggler onClick={toggleNav} />
         <Collapse isOpen={isOpen} navbar>
           <NavItem>
-
-            <NavLink onClick = {props.home}>Home</NavLink>
+            <NavLink id="nl"  onClick = {props.home}>Home</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink onClick = {props.aboutus}>About Us</NavLink>
+            <NavLink id="nl" onClick = {props.aboutus}>About Us</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink onClick = {props.works}>Works</NavLink>
+            <NavLink id="nl" onClick = {props.works}>Works</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink onClick = {props.contact}>Contact</NavLink>
-
-           
+            <NavLink id="nl" onClick = {props.contact}>Contact</NavLink>
           </NavItem>
         </Collapse>
       </Navbar>
