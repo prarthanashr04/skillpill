@@ -5,8 +5,8 @@ const CardComponent = (props) => {
   return (
     <div>
       <Card body inverse id = 'cardcss'  >
-        <CardTitle>{props.title}</CardTitle>
-        <CardText>{props.content}</CardText>
+        <CardTitle className="body chead" >{props.title}</CardTitle>
+        <CardText className="body">{props.content}</CardText>
         <Button onClick = {props.onClick} id = 'btncss' >Know More</Button>
       </Card>
       </div>

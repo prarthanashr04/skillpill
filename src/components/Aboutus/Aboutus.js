@@ -15,8 +15,8 @@ function Aboutus(){
     <li>We were not working under the burden of developing things to improve our resume but working with an excitement of continuously developing things daily which even fascinates us when we look back</li>
 </ul>
 <p>At the same time we realize the importance of working on our basics as well i.e. developing our problem solving approach. So we worked on our core as well continuously by things like competitive programming which add another spice to our routine. Solving problems and encountering errors might be frustrating at times but the whole process was full of learning new things with an excitement of what’s next always there.</p>
-<p>We were also analysing ourselves at regular intervals.</p>
 <ul>
+    <div>We were also analysing ourselves at regular intervals:-</div>
     <li>We have daily sync up meetings where we discuss what we did each day and what we should focus on now. </li>
     <li>This was something like looking in the mirror and realizing and learning from the previous work and using the information to apply it now so that it smoothes our future tasks.</li>
     <li>We had a deep analysis of our work done every two week so that we can see how consistent we are and look back and see where we lacked and what went good etc.</li>

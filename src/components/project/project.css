@@ -1,10 +1,10 @@
-#baseLines{
+#project{
     text-align: left;
     padding:20px 20px;
 }
-#baseLines .head {
+#project .head {
     font-size: 20px;
 }
-#heading{
+#project .heading{
     font-size: 30px;
 }
