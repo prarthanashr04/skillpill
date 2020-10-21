@@ -4,7 +4,9 @@ import './Works.css';
 
 function Works(){
     return(<div>
+
     <BaseLines />
+
     </div>)
 }
 
