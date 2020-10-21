@@ -1,0 +1,13 @@
+#Work .content {
+    padding:20px;
+    text-align: justify;
+    font-size: 20px;
+}
+#Work .comp{
+    text-align: left;
+    padding-left: 20px;
+}
+
+#Work li{
+    margin-left: 20px;
+}
