@@ -8,5 +8,11 @@
    border-color: #333;
   text-align:left;
   margin:30px;
- color:black;
+  
+}
+#cardcss .body {
+  color: black;
+}
+#cardcss .chead {
+  font-size: 30px;
 }
