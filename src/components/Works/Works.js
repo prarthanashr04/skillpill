@@ -58,10 +58,9 @@ class Works extends Component {
                 <li>JSON</li>
             </ul>
             <h2 className="comp">Projects:-</h2>
-            <ul>
+            <ul className = "hover">
                 <li onClick={this.baselines}>BaseLines</li>
                 <li onClick={this.progress}>Progress Tracker</li>
-                <li>This Website</li>
             </ul>
         </div>)
         else if(this.state.baseLines)
