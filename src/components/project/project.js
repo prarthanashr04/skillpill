@@ -9,7 +9,9 @@ export default class Project extends Component{
             technologies.push(<li>{this.props.technologies[i]}</li>);
         }
         return(<div id="project">
-        <div id="back" onClick={this.props.back}>&larr;Back</div>
+        <div id="back" onClick={this.props.back}>
+        <div id="backsymbol">&larr;</div>
+        Back</div>
         <div class="heading">{this.props.head}</div>
             <div><b className="head">Problem:</b>{this.props.problem}</div>
             <div>
